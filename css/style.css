@@ -1,0 +1,177 @@
+/* css/style.css - tiny, clean */
+
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    line-height: 1.6;
+    margin: 0;
+    color: #222;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px; 
+    
+
+}
+
+
+.wrap_header {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px; 
+  background-image: url('../includes/images/blogheader.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.site-header {
+    /* background: #0a74da; */
+    color: #fff;
+    padding: 12px 0;
+}
+
+.site-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-header .btn {
+    background: #fff;
+    color: #0a74da;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.post h2 {
+    margin: 0 0 6px;    
+    font-size: 2rem;
+}
+
+.post_header a {
+    text-decoration: none; /* Removes the default underline */
+    color: #3498db; /* Sets the text color */
+    font-weight: bold; /* Makes the text bold */
+    transition: color 0.3s ease; /* Adds a smooth color transition on hover */
+}
+
+.post_header a:hover {
+    color: #0a74da; /* Changes text color on hover */
+    /* You can add other hover effects here, e.g., a custom border or background */
+}
+
+/* Example of adding a custom underline on hover */
+.post_header a.custom-underline:hover {
+    border-bottom: 2px solid #2980b9; /* Adds a custom underline on hover */
+}
+
+.meta {
+    font-size: .9rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.actions {
+    font-size: .9rem;
+    display: inline;
+}
+
+.link-button {   
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+}
+
+form label {
+    display: block;
+    margin: 12px 0;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #0a74da;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.errors {
+    background: #ffe6e6;
+    border: 1px solid #ffbcbc;
+    padding: 10px;
+    border-radius: 6px;
+    color: #700;
+}
+
+.flash {
+    background: #e6ffe6;
+    border: 1px solid #bdf2bd;
+    padding: 8px;
+    border-radius: 6px;
+    color: #060;
+}
+
+a.btn {
+    background: #0a74da;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+	align-items: center;
+	
+   
+}
+
+.login_form{
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f9f9f9;    
+}
+
+.login_form .field {
+    margin-bottom: 12px;
+    width: 80%;
+}
+
+.site-footer {
+    background: #0a74da;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    vertical-align: bottom;
+}
